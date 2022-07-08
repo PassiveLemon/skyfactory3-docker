@@ -1,11 +1,13 @@
 FROM ubuntu
 
 RUN apt update -y &&\
-    apt install openjdk-8-jdk-headless screen -y &&\
+    apt install openjdk-8-jdk-headless -y &&\
     mkdir /server/
 
 ADD start.sh /
 
 EXPOSE 25565
 
-ENTRYPOINT /start.sh
+WORKDIR /server/
+
+ENTRYPOINT sh startserver.sh
