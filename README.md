@@ -13,4 +13,4 @@ Once thats done, run:
 ```
 docker run -itd --name Skyfactory3 -p 25565:25565 -v (Server dir):/server ubuntu:Skyfactory3
 ```
-The server dir is the dir that holds the servers contents.
+ - The server dir is the dir that holds the servers contents.
