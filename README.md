@@ -1,5 +1,6 @@
 # skyfactory3-docker </br>
 Docker stuff for a dedicated Skyfactory 3 server. </br>
+This isn't exclusive to Skyfactory 3. It should be able to run any Java 8 server.
 
 #### This does not download and set up the server. All this does is run the server from your host location in a docker container. </br>
 
