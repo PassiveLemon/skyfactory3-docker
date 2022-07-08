@@ -1,7 +1,7 @@
 # skyfactory3-docker </br>
 Docker stuff for a dedicated Skyfactory 3 server. </br>
 
-This does not download and set up the server. All this does is run the server from your host location in a docker container. </br>
+#### This does not download and set up the server. All this does is run the server from your host location in a docker container. </br>
 
 Until I upload it to Dockerhub, run:
 ```
